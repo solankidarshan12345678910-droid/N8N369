@@ -10,5 +10,6 @@
       "onAutoForward": "openBrowser"
     }
   },
+  "postStartCommand": "/usr/local/bin/start-desktop.sh >/tmp/cloud-desktop.log 2>&1 &",
   "remoteUser": "vscode"
 }
